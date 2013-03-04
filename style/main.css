@@ -1,0 +1,134 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+body {
+	overflow: hidden;
+	font-family: "Segoe UI";
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-weight: normal;
+}
+
+.divider {
+	width: 0px;
+	height: 100%;
+	border-left: 1px solid #DDDDDD;
+	border-right: 1px solid #CCCCCC;
+	margin: 0px 10px;
+}
+
+#toolmenu {
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	background-color: rgba(0,0,0,0.7);
+	width: 400px;
+}
+#toolmenu > .drag {
+	width: 100%;
+	height: 20px;
+	background-color: rgba(0,0,0,0.5);
+	-webkit-transition: 0.2s all;
+	   -moz-transition: 0.2s all;
+	        transition: 0.2s all;
+}
+#toolmenu > .drag:hover {
+	background-color: rgba(0,0,0,0.7);
+}
+
+#tools {
+	
+}
+
+#tools > .section {
+	margin: 2px 0px;
+	background-color: rgba(0,0,0,0.3);
+	padding: 10px 5%;
+	width: 90%;
+	color: #DDDDDD;
+}
+
+#tools > .section > p {
+	display: inline-block;
+	margin: 5px;
+	width: 30px;
+	height: 30px;
+}
+
+#tools > .section > p.active {
+	border: 2px solid #EEEEEE !important;
+}
+
+#tools > .section > input[type="text"] {
+	padding: 7px;
+}
+
+#tools > .section > input[type="button"] {
+	border: none;
+	padding: 5px;
+	border: 3px solid  #DDDDDD;
+	margin-left: 10px;
+}
+#tools > .section > input[type="button"]:hover {
+	background-color: #CCCCCC;
+	color: #222222;
+}
+#tools > .section > input[type="button"]:active {
+	background-color: #BBBBBB;
+}
+
+#download {
+	 position: absolute;
+	 top: 0px;
+	 left: 0px; 
+	 background-color: rgb(20,20,20);
+	 color: rgb(200,200,200); 
+	 padding: 10px; 
+	 cursor: pointer;
+}
+#download:hover {
+	background-color: rgb(200,200,200); 
+	color: rgb(20,20,20);
+}
+
+#overlay {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+#mark {
+	background-color: rgba(0,0,0,0.3);
+	width: 0px;
+	height: 0px;
+	position: absolute;
+	display: none;
+}
+
+.getit {
+	display: none;
+	width: 400px;
+	height: 150px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -75px;
+	margin-left: -200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
